@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: custom-service-plugin-otlp-location
+  description: Location to import all custom-service-plugin-otlp catalog components
+spec:
+  targets:
+    - ./.platform/*.yaml
